@@ -4,7 +4,7 @@ module.exports = {
       // TODO: set host address, username, and authentication method
       host: 'ec2-52-53-207-38.us-west-1.compute.amazonaws.com',
       username: 'ubuntu',
-      pem: '/Users/andyliang/Desktop/JobSearch/job2.pem',
+      pem: '../job2.pem',
       // password: 'server-password'
       // or neither for authenticate from ssh-agent
       opts: {

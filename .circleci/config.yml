@@ -35,6 +35,7 @@ jobs:
           - v1-dependencies-
 
       - run: meteor || curl https://install.meteor.com | /bin/sh
+      - run: npm install -g mup
       - run: meteor npm install --save
 
       - save_cache:

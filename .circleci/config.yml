@@ -8,14 +8,14 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:7.10
-      environment:
-          # lang settings required for Meteor's Mongo
-          LANG: C.UTF-8
-          LANGUAGE: C.UTF-8
-          LC_ALL: C.UTF-8
-          LC_NUMERIC: en_US.UTF-8
-          METEOR_BIN_TMP_DIR: /home/circleci/build-temp/
-          METEOR_BIN_TMP_FILE: meteor-bin-temp
+        environment:
+            # lang settings required for Meteor's Mongo
+            LANG: C.UTF-8
+            LANGUAGE: C.UTF-8
+            LC_ALL: C.UTF-8
+            LC_NUMERIC: en_US.UTF-8
+            METEOR_BIN_TMP_DIR: /home/circleci/build-temp/
+            METEOR_BIN_TMP_FILE: meteor-bin-temp
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images

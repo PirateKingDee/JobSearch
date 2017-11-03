@@ -48,4 +48,4 @@ jobs:
       - run:
           name: deploy
           command: |
-            cd .deploy & mup deploy
+            mup setup

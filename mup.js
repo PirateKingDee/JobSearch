@@ -16,7 +16,7 @@ module.exports = {
   app: {
     // TODO: change app name and path
     name: 'app',
-    path: '../../JobSearch',
+    path: '../JobSearch',
 
     servers: {
       one: {},

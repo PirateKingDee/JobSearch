@@ -45,7 +45,5 @@ jobs:
 
       # run tests!
       # - run: meteor test --once --driver-package meteortesting:mocha
-      - run:
-          name: deploy
-          command: |
-            mup setup
+      - run: mup setup
+      - run: mup deploy
